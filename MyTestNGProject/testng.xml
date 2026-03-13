@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Facebook Login">
+    <test name="Test">
+        <classes>
+            <class name="TestNGPractice.FacebookLoginTest"/>
+        </classes>
+    </test>
+    <test name="FAcebook PRofile TEst Case">
+        <classes>
+            <class name="TestNGPractice.FaceBookProfileTEst"/>
+        </classes>
+    </test>
+</suite>
