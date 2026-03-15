@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="TestNG Listener Suite">
+
+	<listeners>
+		<listener class-name="commm.testng.listners.DemoListner"></listener>
+	</listeners>
+	
+	<test name="Listener Test Case">
+		<classes>
+			<class name="commm.testng.listners.SampleTestClass"></class>
+		
+		</classes>
+	</test>
+</suite> <!-- Suite -->

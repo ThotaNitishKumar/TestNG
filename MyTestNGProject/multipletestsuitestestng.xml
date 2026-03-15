@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Multiple Test Suites " verbose="1">
+<sute-files>
+<suite-file path="sampleTEstNG.xml"></suite-file>
+<suite-file path="Paraneterstestng.xml"></suite-file>
+<suite-file path="dataprovidertestng.xml"></suite-file>
+
+</sute-files>
+    
+</suite>
