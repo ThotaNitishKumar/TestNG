@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 
-<suite name="Facebook Login">
+<suite name="Facebook Login" verbose="1">
     <test name="Test">
         <classes>
             <class name="TestNGPractice.FacebookLoginTest"/>
@@ -11,5 +11,10 @@
         <classes>
             <class name="TestNGPractice.FaceBookProfileTEst"/>
         </classes>
+    </test>
+     <test name="Sample TEst Case For PAckage">
+        <packages>
+            <package name="com.TestNG.Training"/>
+        </packages>
     </test>
 </suite>
