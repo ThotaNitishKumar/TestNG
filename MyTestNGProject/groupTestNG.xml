@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Test Case Group " verbose="1">
+<test thread-count="1" name = "Group Functionality" preserve-order = "true">
+<groups>
+<run>
+<exclude name="Sanity"></exclude>
+<include name="Regression"></include>
+
+</run>
+</groups>
+<classes>
+<class name="com.TestNG.Training.TestCaseGrouping"></class>
+
+</classes>
+</test>    
+</suite>
