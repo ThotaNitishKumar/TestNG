@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG.Training.SoftAssertionExample">
+      <class name="comm.testng.dataprovider.TestPArameerExample">
         <methods>
-          <include name="testCaseTwo"/>
-          <include name="testCaseOne"/>
+          <include name="testAdd" invocation-numbers="4"/>
         </methods>
-      </class> <!-- com.TestNG.Training.SoftAssertionExample -->
+      </class> <!-- comm.testng.dataprovider.TestPArameerExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

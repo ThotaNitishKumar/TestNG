@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="TEstNG parameters " verbose="1">
+<test name = "TEst parameters via XML file" preserve-order = "true">
+<parameter name ="browser" value="Chrome"></parameter>
+<parameter name ="username" value="thotanitishkumar123@gmail.com"></parameter>
+<parameter name ="password" value="Rohitsharma"></parameter>
+<classes>
+  <class name="com.TestNG.Training.TestPArameters"/>
+  
+
+
+</classes>
+</test>
+    
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Data provider " verbose="1">
+<test name = "Unit TEst" preserve-order = "true">
+<classes>
+  <class name="comm.testng.dataprovider.dataProviderParameterExample"/>
+</classes>
+</test>
+
+<test name = "IntegrationLevel" preserve-order = "true">
+<classes>
+  <class name="comm.testng.dataprovider.DataProviderIntegrationExample"/>
+</classes>
+</test>
+
+<test name = "AcceptanceLevel" preserve-order = "true">
+<classes>
+  <class name="comm.testng.dataprovider.DataProviderAcceptanceExample"/>
+</classes>
+</test>
+</suite>
